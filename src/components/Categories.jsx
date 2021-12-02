@@ -4,7 +4,9 @@ import { categories } from '../mock/data';
 import { CategoryItem } from './CategoryItem';
 
 const Container = styled.div`
-
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
 `;
 
 
